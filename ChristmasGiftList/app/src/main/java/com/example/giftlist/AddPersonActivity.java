@@ -1,5 +1,6 @@
 package com.example.giftlist;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -61,9 +62,9 @@ public class AddPersonActivity extends AppCompatActivity {
                             String id = myRef.push().getKey();
                             Person person = new Person(name, Integer.parseInt(budgetString), 0,0, id);
                             myRef.child(id).setValue(person);
-                            //save person
-                            //then finish activity
-                            finish();
+                            Intent intent = new Intent(this, ChristmasListActivity.class);
+                            intent.putExtra("user", user);
+                            startActivity(intent);
                         } else{
                             Toast.makeText(this, "Enter Valid Budget !!", Toast.LENGTH_SHORT).show();
                             editTextBudget.setText("");

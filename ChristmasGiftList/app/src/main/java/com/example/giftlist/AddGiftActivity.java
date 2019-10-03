@@ -55,6 +55,7 @@ public class AddGiftActivity extends AppCompatActivity {
                 for (DataSnapshot child : dataSnapshot.getChildren()) {
                     Log.d("gift", child.getValue().toString());
                     Gift value = child.getValue(Gift.class);
+                    value.setId(child.getKey());
                     if(value.getPrice() <= budgetRemaining) {
                         gifts.add(value);
                     }

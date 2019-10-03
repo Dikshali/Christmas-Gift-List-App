@@ -1,13 +1,22 @@
 package com.example.giftlist;
 
+import android.annotation.SuppressLint;
+import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatDialog;
+import android.support.v7.view.ContextThemeWrapper;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -32,6 +41,7 @@ public class PersonGiftsActivity extends AppCompatActivity {
     FirebaseUser user;
     FirebaseDatabase database;
     DatabaseReference myRef;
+    private Gift gf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +53,9 @@ public class PersonGiftsActivity extends AppCompatActivity {
             user = getIntent().getParcelableExtra("user");
         }
         database = FirebaseDatabase.getInstance();
+        listView = findViewById(R.id.listview);
         myRef = database.getReference("Items/"+user.getUid()+"/"+person.id+"/"+"gifts");
+        //personRef = database.getReference("Items/"+user.getUid());
         setTitle(person.name);
         myRef.addValueEventListener(new ValueEventListener() {
 
@@ -55,7 +67,7 @@ public class PersonGiftsActivity extends AppCompatActivity {
                     gifts.add(value);
                     Log.d("Demo", "Value is: " + value);
                 }
-                listView = findViewById(R.id.listview);
+
                 giftsAdapter = new GiftsAdapter(getBaseContext(), R.layout.gift_item, gifts);
                 listView.setAdapter(giftsAdapter);
             }
@@ -63,6 +75,48 @@ public class PersonGiftsActivity extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+            }
+        });
+
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                gf = (Gift) listView.getItemAtPosition(i);
+                AlertDialog.Builder alertDialog = new AlertDialog.Builder(PersonGiftsActivity.this);
+                alertDialog.setTitle("Delete Entry");
+                alertDialog.setMessage("Are you sure you want to delete this entry?");
+                alertDialog.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        if(person.totalBought - gf.getPrice() < 0){
+                            person.totalBought = 0;
+                        }else {
+                            person.totalBought = person.totalBought - gf.getPrice();
+                        }
+                        if(person.giftCount - 1 <0 ){
+                            person.giftCount = 0;
+                        }else {
+                            person.giftCount = person.giftCount - 1;
+                        }
+                        for(int j=0;j<person.gifts.size();j++){
+                            if(person.gifts.get(j).getId().equals(gf.getId())){
+                                person.gifts.remove(j);
+                            }
+                        }
+                        database.getReference("Items/"+user.getUid()).child(person.id).setValue(person);
+                        giftsAdapter.notifyDataSetChanged();
+                    }
+                });
+                alertDialog.setNegativeButton("No",new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog,int which){
+                                        dialog.cancel();
+                                    }
+                                });
+                alertDialog.setCancelable(false);
+                AlertDialog a = alertDialog.create();
+                a.show();
+                return false;
             }
         });
 
