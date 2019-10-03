@@ -79,5 +79,12 @@ public class AddPersonActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(this, ChristmasListActivity.class);
+        intent.putExtra("user", user);
+        startActivity(intent);
+    }
 
 }

@@ -87,6 +87,14 @@ public class AddGiftActivity extends AppCompatActivity {
 
             }
         });
+    }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(this, PersonGiftsActivity.class);
+        intent.putExtra("person", person);
+        intent.putExtra("user", user);
+        startActivity(intent);
     }
 }
