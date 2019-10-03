@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63355865-049b-4ad2-8ad8-87e46189d383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ChristmasGiftList/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/androidTest/java/com/example/finalexam/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/androidTest/java/com/example/giftlist/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/AddGiftActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/AddGiftActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/AddPersonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/AddPersonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/ChristmasListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/ChristmasListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/PersonGiftsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/PersonGiftsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/SignUpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/SignUpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/TestConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/utils/Gift.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/utils/Gift.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/utils/GiftsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/utils/GiftsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/utils/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/utils/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/finalexam/utils/PersonsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/java/com/example/giftlist/utils/PersonsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_add_gift.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_add_gift.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_add_person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_add_person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_christmas_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_christmas_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_person_gifts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_person_gifts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/main/res/layout/activity_sign_up.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChristmasGiftList/app/src/test/java/com/example/finalexam/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChristmasGiftList/app/src/test/java/com/example/giftlist/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="925" />
+    <option name="width" value="979" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63355865-049b-4ad2-8ad8-87e46189d383" name="Default Changelist" comment="" />
+      <created>1570111208096</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570111208096</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3295302" />
+      <window_info id="Image Layers" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gps Emulator" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
