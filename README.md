@@ -4,6 +4,16 @@
 
 The App enables tracking Christmas gift purchasing by quickly entering them into the app. It also enables setting gift budget for each person you plan on buying gifts for.
 
+## Screenshots
+
+Home Screen             |List of people user has added             |Add person screen            |Afer adding a person, list of people             |
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](screenshot/Capture1.jpg)  |  ![](screenshot/Capture2.jpg) |  ![](screenshot/Capture3.jpg) |  ![](screenshot/Capture4.jpg)
+
+Add gifts list             |Gifts added for the selected person             |List of people with change in the amount            |
+:-------------------------:|:-------------------------:|:-------------------------:
+![](screenshot/Capture5.jpg)  |  ![](screenshot/Capture6.jpg) |  ![](screenshot/Capture7.jpg)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
