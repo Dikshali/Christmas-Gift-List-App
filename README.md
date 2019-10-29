@@ -6,11 +6,11 @@ The App enables tracking Christmas gift purchasing by quickly entering them into
 
 ## Screenshots
 
-Home Screen             |List of people user has added             |Add person screen            |Afer adding a person, list of people             |
+Login Screen             |List of people user has added             |Add person screen            |List of people, after adding a person             |
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](screenshot/Capture1.jpg)  |  ![](screenshot/Capture2.jpg) |  ![](screenshot/Capture3.jpg) |  ![](screenshot/Capture4.jpg)
 
-Add gifts list             |Gifts added for the selected person             |List of people with change in the amount            |
+Add gifts from list             |Gifts added for the selected person             |List of people with change in the amount            |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](screenshot/Capture5.jpg)  |  ![](screenshot/Capture6.jpg) |  ![](screenshot/Capture7.jpg)
 
